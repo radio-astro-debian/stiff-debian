@@ -1,0 +1,7 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+
+export CFLAGS=-Wno-error=format-security
+
+%:
+	dh $@  --with autotools-dev

@@ -1,0 +1,14 @@
+Source: stiff
+Section: science
+Priority: optional
+Maintainer: Gijs Molenaar <Gijs Molenaar (launchpad ppa build key) <gijs@pythonic.nl>>
+Build-Depends: debhelper (>= 8.0.0), autotools-dev, zlib1g-dev, libjpeg-dev, libtiff5-dev
+Standards-Version: 3.9.4
+Homepage: http://www.visiomatic.org/software/stiff
+
+Package: stiff
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: converts scientific FITS images to the more popular TIFF format
+ STIFF is a program that converts scientific FITS images to the more popular TIFF
+ format for illustration purposes.
